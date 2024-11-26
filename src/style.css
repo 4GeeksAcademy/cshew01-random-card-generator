@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+    font-size: 10rem;
+    line-height: 6rem;
+}
+
+
+
+.cardContainer {
+    margin: auto;
+    width: 400px;
+    height: 560px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2), 10px 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topLeft {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    text-align: left;
+    color: red;
+}
+
+.centerNumber {
+    position: relative;
+    top: 25%;
+}
+
+.bottomRight {
+    position: relative;
+    top: 240px;
+    right: 1rem;
+    text-align: right;
+    color: red;
+}
+
